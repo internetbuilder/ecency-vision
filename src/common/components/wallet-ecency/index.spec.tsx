@@ -6,7 +6,7 @@ import {StaticRouter} from "react-router-dom";
 
 import {createBrowserHistory} from "history";
 
-import {WalletEcency, formatMemo} from "./index";
+import {WalletWeebecash, formatMemo} from "./index";
 
 import {initialState as transactionsInitialState} from "../../store/transactions/index";
 

@@ -46,7 +46,7 @@ export class SwitchLang extends Component<Props> {
                 }
             })),
             postElem: <div className="drop-down-menu-contributors">
-                <Link to="/contributors">{_t("switch-lang.contributors")}</Link>
+                <Link to="/@weebecash">@weebecash</Link>
             </div>
         };
        

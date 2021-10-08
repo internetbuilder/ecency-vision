@@ -137,7 +137,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://weebecash.com/@good-karma"
+                                href="https://ecency.com/@good-karma"
                                 rel="noopener noreferrer"
                             >
                                 {blogSvg} {_t('static.about.contact-blog')}
@@ -145,7 +145,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://weebecash.com/@ecency"
+                                href="https://ecency.com/@ecency"
                                 rel="noopener noreferrer"
                             >
                                 {newsSvg} {_t('static.about.contact-news')}
@@ -599,7 +599,7 @@ class TosPage extends Component<PageProps> {
                         <p>"Ecency", the Weebecash logo and any other product or service names, logos or slogans that may appear on Weebecash are trademarks of Weebecash and may not be
                             copied, imitated or used, in whole or in part, without our prior written permission. You may not use any metatags or other "hidden text" utilizing
                             "Ecency" or any other name, trademark or product or service name of Weebecash without our prior written permission. In addition, the look and feel of
-                            Ecency, including, without limitation, all page headers, custom graphics, button icons and scripts, constitute the service mark, trademark or trade
+                            Weebecash, including, without limitation, all page headers, custom graphics, button icons and scripts, constitute the service mark, trademark or trade
                             dress of Weebecash and may not be copied, imitated or used, in whole or in part, without our prior written permission. All other trademarks, registered
                             trademarks, product names and company names or logos mentioned or used on Weebecash are the property of their respective owners and may not be copied,
                             imitated or used, in whole or in part, without the permission of the applicable trademark holder. Reference to any products, services, processes or

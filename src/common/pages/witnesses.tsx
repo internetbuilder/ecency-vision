@@ -60,7 +60,7 @@ const transform = (list: Witness[]): WitnessTransformed[] => {
         const {running_version: version} = x;
 
         let parsedUrl;
-        const oUrl = new URL(url, 'https://weebecash.com');
+        const oUrl = new URL(url, 'https://ecency.com');
         const ex = pathToRegexp(routes.ENTRY).exec(oUrl.pathname);
 
         if (ex) {

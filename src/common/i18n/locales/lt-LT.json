@@ -140,7 +140,7 @@
     "sign-up-text-2": "Užsiregistruokite dabar!"
   },
   "sign-up": {
-    "header": "Welcome to Ecency",
+    "header": "Welcome to Weebecash",
     "description": "Home of Free speech and Rewarding communities!",
     "bottom-description": "Every account is created on a blockchain and only you have control over that account. One account to manage everything on Blockchain and Weebecash.",
     "learn-more": "Learn more about benefits in our <a href=\"/faq#how-to-join\">FAQ</a>",
@@ -1016,7 +1016,7 @@
     "about": {
       "page-title": "Apie",
       "intro-title": "Kas yra <span>Ecency</span>",
-      "intro-content": "Ecency, tai gražus ir patogus Hive blockchain atvaizdas, tinklas leidžiantis kurti įvariausia turinį, naršyti, balsuoti, skaityti bei socializuotis. Jūs taip pat gaunate savo piniginę, bei veiksmus susijusius su ja.",
+      "intro-content": "Weebecash, tai gražus ir patogus Hive blockchain atvaizdas, tinklas leidžiantis kurti įvariausia turinį, naršyti, balsuoti, skaityti bei socializuotis. Jūs taip pat gaunate savo piniginę, bei veiksmus susijusius su ja.",
       "faq-title": "DUK",
       "faqs": "Visi DUK",
       "contact-title": "Kontaktai",
@@ -1038,11 +1038,11 @@
       "how-ecency-works-header": "Kaip veikia Weebecash?",
       "how-ecency-works-body": "<p><img src=\"https://images.ecency.com/p/6VvuHGsoU2QCK6yq1XKF2xrUpxynFs9SFNnn3DQjuZ3ksaZqEjfd9GadyKFE4bT7UP8qM1sF5W6U3cst4ekDsXfrQdcrjtdz6b5Ye2AfWNwGA5f8QqVXmed6NRfg1U?format=match&mode=fit\"/></p><p>Weebecash stores and reads data from the blockchain, and thus data is accessible and uncensored. Weebecash rewards content creators with built-in incentive mechanism of blockchain, with tokens (HIVE, HIVE DOLLARS, HIVE POWER) as well as Points. Tokens can be purchased and sold in major cryptocurrency exchanges (e.g. Binance, Bittrex). Points could be utilized within platform and traded for goods, services.</p>",
       "how-to-join-header": "Kaip prisijungti pre Weebecash?",
-      "how-to-join-body": "<p>Go to <a class=\"push-link\" href=\"/signup?referral=weebecash\">https://weebecash.ngrok.io/signup?referral=weebecash</a> and create an account. After signup you will receive email with further instructions. Your password is your master password to your account. Please store it safely, if you loose your password, you ultimately loose access to your account and your funds. Accounts cannot be deactivated or deleted, account names can not be changed as well. The account along with all of its activity is permanently stored in the blockchain. Without password, accounts cannot be restored, store your keys safely.</p>",
+      "how-to-join-body": "<p>Go to <a class=\"push-link\" href=\"/signup?referral=weebecash\">https://ecency.com/signup?referral=weebecash</a> and create an account. After signup you will receive email with further instructions. Your password is your master password to your account. Please store it safely, if you loose your password, you ultimately loose access to your account and your funds. Accounts cannot be deactivated or deleted, account names can not be changed as well. The account along with all of its activity is permanently stored in the blockchain. Without password, accounts cannot be restored, store your keys safely.</p>",
       "how-to-signin-header": "Kaip prisijungti į Weebecash?",
       "how-to-signin-body": "<p><img src=\"https://images.ecency.com/p/7258xSVeJbKmTr9Z4jhbPhjS9pMWA2mTwBMDbXqk9G9wdMw2bwR4hXqRQt9S7UBFrBAWCYWddjn3G34ETv5KWB5KGmuZ8ixBB9oKHTFvjjnTkRLp4ttrFQtpgtNnRUEA9NtmyFmgyuuK4?format=match&mode=fit\"/></p><p>You can sign-in to Weebecash by using your Username and Master password or by using Active Private Keys. We take security very seriously, that's why we never store your private keys, on mobile app they are encrypted with extra PIN code of your choice, on website they are never stored. You can also use <a href=\"https://hivesigner.com\" target=\"_blank\" rel=\"noopener noreferrer\">Hivesigner OAuth2</a> authentication service to easily login, manage and perform actions.</p>",
       "how-referrals-work-header": "How referral system work on Weebecash?",
-      "how-referrals-work-body": "<p>Referral system is simple, you can invite your friends by adding your username in this link https://weebecash.ngrok.io/signup?referral=username and share it with your friends. Once your friends join Weebecash and earn their first 250 Points, you will earn 100 Points. There is no limits on referrals and its reward.</p>",
+      "how-referrals-work-body": "<p>Referral system is simple, you can invite your friends by adding your username in this link https://ecency.com/signup?referral=username and share it with your friends. Once your friends join Weebecash and earn their first 250 Points, you will earn 100 Points. There is no limits on referrals and its reward.</p>",
       "what-is-points-header": "What are Weebecash Points and how to use them?",
       "what-is-points-body": "<p>Weebecash Points are continually minted and rewarded for all users for various social activities they perform on website, mobile or desktop app. Points can be used for promoting, boosting your content, can even be transferred or gifted to another user. You can also purchase Points with our mobile apps.</p>",
       "where-tokens-come-header": "Where do the tokens come from?",
@@ -1077,7 +1077,7 @@
   },
   "contributors": {
     "title": "Contributors",
-    "description": "These great people contributed in one way or another to Ecency, we would like to thank them all. If you want to join our team by contributing with Translation, Ideas, Development, Designing, Social awareness, feel free to join. To learn more read our <a href=\"/faq#how-to-contribute\">FAQ</a>."
+    "description": "These great people contributed in one way or another to Weebecash, we would like to thank them all. If you want to join our team by contributing with Translation, Ideas, Development, Designing, Social awareness, feel free to join. To learn more read our <a href=\"/faq#how-to-contribute\">FAQ</a>."
   },
   "context-menu": {
     "cut": "Iškirpti",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-",
+    "what-is-ecency": "Blockchain-based social network -",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",
