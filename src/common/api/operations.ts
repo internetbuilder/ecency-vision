@@ -288,7 +288,7 @@ export const transferHot = (from: string, to: string, amount: string, memo: stri
         memo
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${from}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${from}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -368,7 +368,7 @@ export const transferToSavingsHot = (from: string, to: string, amount: string, m
         memo
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${from}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${from}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -408,7 +408,7 @@ export const convertHot = (owner: string, amount: string) => {
         requestid: new Date().getTime() >>> 0
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${owner}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${owner}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -451,7 +451,7 @@ export const transferFromSavingsHot = (from: string, to: string, amount: string,
         request_id: new Date().getTime() >>> 0
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${from}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${from}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -492,7 +492,7 @@ export const transferToVestingHot = (from: string, to: string, amount: string) =
         amount
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${from}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${from}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -530,7 +530,7 @@ export const delegateVestingSharesHot = (delegator: string, delegatee: string, v
         vesting_shares: vestingShares
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${delegator}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${delegator}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -566,7 +566,7 @@ export const withdrawVestingHot = (account: string, vestingShares: string) => {
         vesting_shares: vestingShares
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${account}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${account}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }
@@ -605,7 +605,7 @@ export const setWithdrawVestingRouteHot = (from: string, to: string, percent: nu
         auto_vest: autoVest
     }];
 
-    const params: Parameters = {callback: `https://ecency.com/@${from}/wallet`};
+    const params: Parameters = {callback: `https://weebecash.ngrok.io/@${from}/wallet`};
     return hs.sendOperation(op, params, () => {
     });
 }

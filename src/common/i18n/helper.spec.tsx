@@ -8,7 +8,7 @@ it("(1) safeHtml - safe tags && attrs", async () => {
         <h3>Foo bar baz</h3>
         <p>Lorem ipsum <a href=\"https://ecency.com\" target=\"_blank\" rel=\"noopener noreferrer\">dolor</a> sit amet, <span class=\"highlight"\>consectetur</span> adipiscing elit.</p>
         <p>Cras eu turpis et mi <strong>vestibulum</strong> viverra eget a orci.</p>
-        <p><img src=\"https://ecency.com/logo.png"\ alt=\"Logo"\ /></p>
+        <p><img src=\"https://weebecash.ngrok.io/logo.png"\ alt=\"Logo"\ /></p>
         <br>
         <ul><li><b>interdum</b></li><li>augue</li><li>ornare</li><li>ante</li></ul>
     `;
