@@ -184,7 +184,7 @@ interface State {
     transfer: boolean;
 }
 
-export class WalletWeebecash extends BaseComponent<Props, State> {
+export class WalletEcency extends BaseComponent<Props, State> {
     state: State = {
         claiming: false,
         purchase: false,
@@ -455,6 +455,6 @@ export default (p: Props) => {
         setSigningKey: p.setSigningKey
     }
 
-    return <WalletWeebecash {...props} />;
+    return <WalletEcency {...props} />;
 }
 

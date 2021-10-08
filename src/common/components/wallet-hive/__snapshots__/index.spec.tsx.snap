@@ -296,7 +296,7 @@ exports[`(1) Default Render 1`] = `
         </span>
       </a>
       <a
-        className="menu-item ecency"
+        className="menu-item Weebecash"
         href="/@user1/points"
         onClick={[Function]}
       >
@@ -631,7 +631,7 @@ exports[`(2) Render with converting HBD 1`] = `
         </span>
       </a>
       <a
-        className="menu-item ecency"
+        className="menu-item Weebecash"
         href="/@user1/points"
         onClick={[Function]}
       >
