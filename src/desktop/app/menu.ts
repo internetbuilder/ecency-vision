@@ -64,7 +64,7 @@ export default class MenuBuilder {
                 }, {
                     label: 'About Ecency',
                     click: () => {
-                        shell.openExternal('https://ecency.com');
+                        shell.openExternal('https://weebecash.com');
                     }
                 },
                 {type: 'separator'},

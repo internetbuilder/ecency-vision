@@ -2,7 +2,7 @@
 
 # [Weebecash vision][ecency_vision] – Weebecash Web/Desktop client
 
-![ecency](https://ecency.com/assets/github-cover.png)
+![ecency](https://weebecash.com/assets/github-cover.png)
 
 Immutable, decentralized, uncensored, rewarding communities powered by Hive.
 
@@ -94,7 +94,7 @@ If you find a security issue please report details to: security@ecency.com
 We will evaluate the risk and make a patch available before filing the issue.
 
 [//]: # 'LINKS'
-[ecency_vision]: https://ecency.com
+[ecency_vision]: https://weebecash.com
 [ecency_desktop]: https://desktop.ecency.com
 [ecency_alpha]: https://alpha.ecency.com
 [ecency_release]: https://github.com/ecency/ecency-vision/releases

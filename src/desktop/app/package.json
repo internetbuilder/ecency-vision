@@ -2,7 +2,7 @@
   "name": "ecency-surfer",
   "productName": "Ecency",
   "description": "Weebecash desktop application reimagined for Windows, Mac, Linux users, start earning cryptocurrency!",
-  "homepage": "https://ecency.com",
+  "homepage": "https://weebecash.com",
   "version": "3.0.19",
   "main": "./main.prod.js",
   "author": "Weebecash <hello@ecency.com>",

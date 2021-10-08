@@ -99,10 +99,10 @@
   .tob-bg-algae {
     display: none;
     @include themify(night) {
-      background-image: url("https://ecency.com/assets/hero-algae-dark.svg");
+      background-image: url("https://weebecash.com/assets/hero-algae-dark.svg");
     }
     @include themify(day) {
-      background-image: url("https://ecency.com/assets/hero-algae-light.svg");
+      background-image: url("https://weebecash.com/assets/hero-algae-light.svg");
     }
     background-position: 100% 100%;
     background-size: contain;
@@ -121,10 +121,10 @@
     display: none;
     z-index: 1;
     @include themify(night) {
-      background-image: url("https://ecency.com/assets/hero-fishes-dark.png");
+      background-image: url("https://weebecash.com/assets/hero-fishes-dark.png");
     }
     @include themify(day) {
-      background-image: url("https://ecency.com/assets/hero-fishes.svg");
+      background-image: url("https://weebecash.com/assets/hero-fishes.svg");
     }
     background-position: 100% 100%;
     background-size: contain;
@@ -229,10 +229,10 @@
     background-position: top;
     @include themify(day) {
       color: $dark-sky-blue;
-      background-image: url('https://ecency.com/assets/illustration-hero-day.webp');
+      background-image: url('https://weebecash.com/assets/illustration-hero-day.webp');
     }
     @include themify(night) {
-    background-image: url('https://ecency.com/assets/illustration-hero.webp');
+    background-image: url('https://weebecash.com/assets/illustration-hero.webp');
     color: $pinkish-grey;
   }
   @media (max-width: $lg-break) {
@@ -1305,14 +1305,14 @@
           right: 0;
           height: 154px;
           @include themify(night) {
-            background-image: url("https://ecency.com/assets/download-algae-dark.png");
+            background-image: url("https://weebecash.com/assets/download-algae-dark.png");
             background-position-y: bottom;
             background-repeat: no-repeat;
             background-position-x: center;
             background-size: cover;
           }
           @include themify(day) {
-            background-image: url("https://ecency.com/assets/download-algae.png");
+            background-image: url("https://weebecash.com/assets/download-algae.png");
             background-position-y: bottom;
             background-repeat: no-repeat;
             background-position-x: center;
@@ -1868,7 +1868,7 @@
         position: absolute;
         top: 90px;
         left: 50px;
-        background-image: url("https://ecency.com/assets/left-fishes.png");
+        background-image: url("https://weebecash.com/assets/left-fishes.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;

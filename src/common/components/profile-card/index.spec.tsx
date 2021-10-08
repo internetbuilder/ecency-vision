@@ -13,7 +13,7 @@ import {globalInstance, activeUserInstance, activeUserMaker, fullAccountInstance
 
 jest.mock("../../constants/defaults.json", () => ({
     imageServer: "https://images.ecency.com",
-    base: "https://ecency.com",
+    base: "https://weebecash.com",
 }));
 
 // Mock for manabar calculation
