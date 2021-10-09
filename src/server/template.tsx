@@ -72,12 +72,12 @@ export const render = (req: express.Request, state: AppState) => {
                   {
                     "@context": "https://schema.org",
                     "@type": "WebSite",
-                    "url": "https://weebecash.ngrok.io/",
+                    "url": "https://weebecash.com/",
                     "potentialAction": [{
                       "@type": "SearchAction",
                       "target": {
                         "@type": "EntryPoint",
-                        "urlTemplate": "https://weebecash.ngrok.io/search/?q={search_term_string}"
+                        "urlTemplate": "https://weebecash.com/search/?q={search_term_string}"
                       },
                       "query-input": "required name=search_term_string"
                     }]

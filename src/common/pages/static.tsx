@@ -137,7 +137,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://weebecash.ngrok.io/@good-karma"
+                                href="https://weebecash.com/@good-karma"
                                 rel="noopener noreferrer"
                             >
                                 {blogSvg} {_t('static.about.contact-blog')}
@@ -145,7 +145,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://weebecash.ngrok.io/@ecency"
+                                href="https://weebecash.com/@ecency"
                                 rel="noopener noreferrer"
                             >
                                 {newsSvg} {_t('static.about.contact-news')}

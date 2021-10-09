@@ -6,8 +6,8 @@ exports[`1 - Invalid 2`] = `null`;
 
 exports[`1 - Invalid 3`] = `null`;
 
-exports[`2 - Valid 1`] = `"https://weebecash.ngrok.io/"`;
+exports[`2 - Valid 1`] = `"https://ecency.com/"`;
 
-exports[`2 - Valid 2`] = `"https://weebecash.ngrok.io/"`;
+exports[`2 - Valid 2`] = `"https://ecency.com/"`;
 
-exports[`2 - Valid 3`] = `"https://weebecash.ngrok.io/hive-125125/@ecency/onboarding-more-users-join-us"`;
+exports[`2 - Valid 3`] = `"https://weebecash.com/hive-125125/@ecency/onboarding-more-users-join-us"`;

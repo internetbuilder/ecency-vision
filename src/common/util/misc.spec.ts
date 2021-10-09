@@ -10,5 +10,5 @@ it('1 - Invalid', () => {
 it('2 - Valid', () => {
     expect(parseUrl("https://ecency.com")).toMatchSnapshot();
     expect(parseUrl("  https://ecency.com  ")).toMatchSnapshot();
-    expect(parseUrl("https://weebecash.ngrok.io/hive-125125/@ecency/onboarding-more-users-join-us")).toMatchSnapshot();
+    expect(parseUrl("https://weebecash.com/hive-125125/@ecency/onboarding-more-users-join-us")).toMatchSnapshot();
 });

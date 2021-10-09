@@ -52,7 +52,7 @@ export const buildHotSignUrl = (endpoint: string, params: {
 }, redirect: string): any => {
     const _params = {
         ...params,
-        redirect_uri: `https://weebecash.ngrok.io/${redirect}`
+        redirect_uri: `https://weebecash.com/${redirect}`
     }
 
     const queryString = new URLSearchParams(_params).toString();
