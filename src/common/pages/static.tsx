@@ -95,7 +95,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="download-button btn-desktop"
                                 target="_blank"
-                                href="https://github.com/ecency/ecency-vision/releases"
+                                href="https://github.com/internetbuilder/weebecash/releases"
                                 rel="noopener noreferrer"
                             >
                                 DESKTOP
@@ -103,7 +103,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="download-button btn-ios"
                                 target="_blank"
-                                href="https://ios.ecency.com"
+                                href="https://ios.weebecash.com"
                                 rel="noopener noreferrer"
                             >
                                 IOS
@@ -111,7 +111,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="download-button btn-android"
                                 target="_blank"
-                                href="https://android.ecency.com"
+                                href="https://android.weebecash.com"
                                 rel="noopener noreferrer"
                             >
                                 ANDROID
@@ -137,7 +137,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://weebecash.com/@good-karma"
+                                href="https://weebecash.com/@weebecash"
                                 rel="noopener noreferrer"
                             >
                                 {blogSvg} {_t('static.about.contact-blog')}
@@ -145,7 +145,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://weebecash.com/@ecency"
+                                href="https://weebecash.com/@weebecash"
                                 rel="noopener noreferrer"
                             >
                                 {newsSvg} {_t('static.about.contact-news')}
@@ -153,7 +153,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="mailto:info@esteem.app?subject=Feedback"
+                                href="mailto:info@weebecash.com?subject=Feedback"
                                 rel="noopener noreferrer"
                             >
                                 {mailSvg} {_t('static.about.contact-email')}
@@ -161,7 +161,7 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://twitter.com/esteem_app"
+                                href="https://twitter.com/weebecash"
                                 rel="noopener noreferrer"
                             >
                                 {twitterSvg} Twitter
@@ -169,18 +169,18 @@ class AboutPage extends Component<PageProps> {
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://github.com/ecency"
+                                href="https://github.com/internetbuilder/weebecash/"
                                 rel="noopener noreferrer"
                             >
                                 {githubSvg} Github
                             </a>
-                            <a className="contacts-link" target="_blank" href="https://t.me/ecency" rel="noopener noreferrer">
+                            <a className="contacts-link" target="_blank" href="https://t.me/weebecash" rel="noopener noreferrer">
                                 {telegramSvg} Telegram
                             </a>
                             <a
                                 className="contacts-link"
                                 target="_blank"
-                                href="https://discord.me/ecency"
+                                href="https://discord.me/weebecash"
                                 rel="noopener noreferrer"
                             >
                                 {discordSvg} Discord
@@ -327,7 +327,7 @@ class PrivacyPage extends Component<PageProps> {
                 <div className={"app-content static-page privacy-page" + containerClasses}>
                     <div className="static-content">
                         <h1 className="page-title">Privacy Policy</h1>
-                        <p className="static-last-updated">Effective: August 20, 2020</p>
+                        <p className="static-last-updated">Effective: October 10, 2021</p>
                         <p>This Privacy Policy describes how this site collects, uses and discloses information, and what choices you have with respect to the information.</p>
                         <p>Updates in this version of the Privacy Policy reflect changes in data protection law.</p>
                         <p>When we refer to this site’s operator, we mean the entity that acts as the controller of your information.</p>
@@ -397,7 +397,7 @@ class PrivacyPage extends Component<PageProps> {
                         <p>Accessing, Updating, Correcting, and Deleting your Information</p>
                         <p>You may access information that you have voluntarily provided through your account on the Services, and review, correct, or delete it.</p>
                         <h2>CONTACT INFORMATION.</h2>
-                        <p>We welcome your comments or questions about this Policy, and you may contact us at: <code>info@ecency.com</code>.</p>
+                        <p>We welcome your comments or questions about this Policy, and you may contact us at: <code>info@weebecash.com</code>.</p>
                         <h2>CHANGES TO THIS PRIVACY POLICY.</h2>
                         <p>We may change this privacy policy at any time. We encourage you to periodically review this page for the latest information on our privacy practices. If
                             we make any changes, we will change the Last Updated date above.</p>
@@ -421,7 +421,7 @@ class PrivacyPage extends Component<PageProps> {
                         <h4>Legal Bases for Processing</h4>
                         <p>We only use your personal information as permitted by law. We are required to inform you of the legal bases of our processing of your personal
                             information, which are described in the table below. If you have questions about the legal bases under which we process your personal information,
-                            contact us at info@ecency.com.</p>
+                            contact us at info@weebecash.com.</p>
                         <h4>Processing Purpose</h4>
                         <h4>Legal Basis</h4>
                         <h4>For compliance, fraud prevention, and safety</h4>
@@ -432,7 +432,7 @@ class PrivacyPage extends Component<PageProps> {
                             law).</p>
                         <h4>With your consent</h4>
                         <p>Where our use of your personal information is based upon your consent, you have the right to withdraw it anytime in the manner indicated in the Service
-                            or by contacting us at info@ecency.com</p>
+                            or by contacting us at info@weebecash.com</p>
                         <h4>Use for New Purposes</h4>
                         <p>We may use your personal information for reasons not described in this Privacy Policy, where we are permitted by law to do so and where the reason is
                             compatible with the purpose for which we collected it. If we need to use your personal information for an unrelated purpose, we will notify you and
@@ -449,7 +449,7 @@ class PrivacyPage extends Component<PageProps> {
                         <p>Transfer. Transfer a machine-readable copy of your personal information to you or a third party of your choice.</p>
                         <p>Restrict. Restrict the processing of your personal information.</p>
                         <p>Object. Object to our reliance on our legitimate interests as the basis of our processing of your personal information that impacts your rights.</p>
-                        <p>You can submit these requests by email to info@ecency.com. We may request specific information from you to help us confirm your identity and process your
+                        <p>You can submit these requests by email to info@weebecash.com. We may request specific information from you to help us confirm your identity and process your
                             request. Applicable law may require or permit us to decline your request. If we decline your request, we will tell you why, subject to legal
                             restrictions. If you would like to submit a complaint about our use of your personal information or response to your requests regarding your personal
                             information, you may contact us at privacy@hive.io or submit a complaint to the data protection regulator in your jurisdiction..</p>
@@ -573,7 +573,7 @@ class TosPage extends Component<PageProps> {
                 <div className={"app-content static-page tos-page" + containerClasses}>
                     <div className="static-content">
                         <h1 className="page-title">Terms Of Service</h1>
-                        <p className="static-last-updated">Last Updated August 20, 2020</p>
+                        <p className="static-last-updated">Last Updated October 10, 2021</p>
                         <p>This agreement (the "Agreement") between you and this site’s operators ("we", "us", "our") sets out your rights to access and use of this site and any
                             other products or services provided by this web site (the "Service"). If you are accepting this Agreement and using the Services on behalf of a company,
                             organization, government, or other legal entity, you represent and warrant that you are authorized to do so and have the authority to bind such entity
@@ -596,15 +596,15 @@ class TosPage extends Component<PageProps> {
                             yourself or do not own the rights to, you agree that you are responsible for any Content you post; that you will only submit Content that you have the
                             right to post; and that you will fully comply with any third-party licenses relating to Content you post.</p>
                         <h2>4. Trademark Policy</h2>
-                        <p>"Ecency", the Weebecash logo and any other product or service names, logos or slogans that may appear on Weebecash are trademarks of Weebecash and may not be
+                        <p>"Weebecash", the Weebecash logo and any other product or service names, logos or slogans that may appear on Weebecash are trademarks of Weebecash and may not be
                             copied, imitated or used, in whole or in part, without our prior written permission. You may not use any metatags or other "hidden text" utilizing
-                            "Ecency" or any other name, trademark or product or service name of Weebecash without our prior written permission. In addition, the look and feel of
+                            "Weebecash" or any other name, trademark or product or service name of Weebecash without our prior written permission. In addition, the look and feel of
                             Weebecash, including, without limitation, all page headers, custom graphics, button icons and scripts, constitute the service mark, trademark or trade
                             dress of Weebecash and may not be copied, imitated or used, in whole or in part, without our prior written permission. All other trademarks, registered
                             trademarks, product names and company names or logos mentioned or used on Weebecash are the property of their respective owners and may not be copied,
                             imitated or used, in whole or in part, without the permission of the applicable trademark holder. Reference to any products, services, processes or
                             other information by name, trademark, manufacturer, supplier or otherwise does not constitute or imply endorsement, sponsorship or recommendation by
-                            Ecency.</p>
+                            Weebecash.</p>
                         <h2>5. Assumption of Risk, Limitations on Liability.</h2>
                         <p>5.1. You accept and acknowledge that there are risks associated with utilizing an Internet-based Hive blockchain account service including, but not
                             limited to, the risk of failure of hardware, software and Internet connections, the risk of malicious software introduction, and the risk that
@@ -726,7 +726,7 @@ class TosPage extends Component<PageProps> {
                         <p>Misrepresentations of infringement can result in liability for monetary damages. You may want to consult an attorney before taking any action pursuant to
                             the DMCA. A DMCA request can be sent to us via the contact information below:</p>
                         <p>Copyright Agent</p>
-                        <p><code>info@ecency.com</code></p>
+                        <p><code>info@weebecash.com</code></p>
                         <p>Please send our Copyright Agent the following information:</p>
                         <p>The electronic or physical signature of the owner of the copyright or the person authorized to act on the owner's behalf;</p>
                         <p>Identification of the copyrighted work claimed to have been infringed, or a representative list of such works;</p>
@@ -791,7 +791,7 @@ class TosPage extends Component<PageProps> {
                             us. We may modify this user agreement at any time. If we make changes to this agreement that materially affect your rights, we will provide notice and
                             keep this edition available as an archive. By continuing to use the Services after a change to this agreement, you agree to those changes.</p>
                         <h2>23. Contact Information</h2>
-                        <p>Notices to this site’s operators should be directed to <code>info@ecency.com</code>.</p>
+                        <p>Notices to this site’s operators should be directed to <code>info@weebecash.com</code>.</p>
                     </div>
                 </div>
             </>
