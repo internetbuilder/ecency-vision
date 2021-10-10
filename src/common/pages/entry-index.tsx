@@ -201,16 +201,7 @@ class EntryIndexPage extends Component<PageProps, State> {
                                     {1 !== this.state.step && <MarketData />}
 
                                     <div className="menu-nav">
-                                        <DownloadTrigger>
-                                            <div className="downloads">
-                                                <span className="label">{_t("g.downloads")}</span>
-                                                <span className="icons">
-                                                    <span className="img-apple">{appleSvg}</span>
-                                                    <span className="img-google">{googleSvg}</span>
-                                                    <span className="img-desktop">{desktopSvg}</span>
-                                                </span>
-                                            </div>
-                                        </DownloadTrigger>
+                                        
 
                                         <div className="text-menu">
                                             <Link className="menu-item" to="/faq">
