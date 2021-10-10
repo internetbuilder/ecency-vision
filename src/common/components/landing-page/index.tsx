@@ -161,15 +161,7 @@ const LandingPage = (props: any) => {
         </div>
         <div className="part-bottom">
           <div className="inner">
-            <div className="text-group">
-              <h2>{_t("landing-page.open-source")}</h2>
-              <p>
-                {_t("landing-page.open-source-desc")}
-              </p>
-              <a className="no-break" href="/signup?referral=weebecash">
-                {_t("landing-page.feel-free-join")}
-              </a>
-            </div>
+            
             <div className="img-wrapper">
               <img
                 className="mechanic"
@@ -298,55 +290,7 @@ const LandingPage = (props: any) => {
       </div>
 
       <div className="sections sixth-section">
-        <div className="part-top">
-          <div className="inner">
-            <div className="text-group">
-              <h2>{_t("landing-page.our-team")}</h2>
-              <ul>
-                <li>
-                  <img src={FounderImg} alt="Founder" loading="lazy" />
-                  <div className="text-wrapper">
-                    <a href="/@good-karma">@good-karma</a>
-                    <p>{_t("landing-page.founder")}</p>
-                  </div>
-                </li>
-                <li>
-                  <img src={DevopsImg} alt="Devops" loading="lazy"/>
-                  <div className="text-wrapper">
-                    <a href="/@talhasch">@talhasch</a>
-                    <p>{_t("landing-page.devops-guru")}</p>
-                  </div>
-                </li>
-                <li>
-                  <img src={DesignGuru} alt="Designer" loading="lazy"/>
-                  <div className="text-wrapper">
-                    <a href="/@dunsky">@dunsky</a>
-                    <p>{_t("landing-page.design-guru")}</p>
-                  </div>
-                </li>
-                <li className="last-element">
-                  <a href="/contributors">{_t("landing-page.community-contributors")}</a>
-                  <a href="/witnesses">{_t("landing-page.blockchain-witnesses")}</a>
-                </li>
-              </ul>
-            </div>
 
-            <div className="image-container">
-              <img className="our-team together" src={OurTeam} alt="Our Team" loading="lazy" />
-              <img
-                className="our-team senior"
-                src={SeniorFish}
-                alt="Senior Fish"
-              />
-              <img
-                className="our-team junior"
-                src={JuniorFish}
-                alt="Junior Fish"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
         <div className="part-bottom pt-sm-5 pt-lg-auto">
           <span className="left-fishes" />
           <img src={FooterMainFish} alt="Big fish" loading="lazy" className="main-fish" />
