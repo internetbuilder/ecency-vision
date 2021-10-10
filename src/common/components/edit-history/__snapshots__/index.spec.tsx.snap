@@ -136,7 +136,7 @@ exports[`(1) Render with data 1`] = `
       <span
         dangerouslySetInnerHTML={
           Object {
-            "__html": "<span>Weebecash</span>",
+            "__html": "<span>ecency</span>",
           }
         }
       />
