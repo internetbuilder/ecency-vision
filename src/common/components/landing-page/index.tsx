@@ -234,8 +234,7 @@ const LandingPage = (props: any) => {
               <p>{_t("landing-page.download-our-application-desc-2")}</p>
               <a
                 className="windows"
-                href="https://desktop.ecency.com/"
-                target="blank"
+                href="#"
               >
                 <img
                   src={
@@ -247,7 +246,7 @@ const LandingPage = (props: any) => {
                 />
                 {_t("landing-page.download-for-windows")}
               </a>
-              <a href="https://ios.ecency.com/" target="blank">
+              <a href="#">
                 <img
                   src={
                     props?.global?.theme === "day"
@@ -258,7 +257,7 @@ const LandingPage = (props: any) => {
                 />
                 {_t("landing-page.download-for-ios")}
               </a>
-              <a href="https://android.ecency.com/" target="blank">
+              <a href="#">
                 <img
                   src={
                     props?.global?.theme === "day"
@@ -327,50 +326,7 @@ const LandingPage = (props: any) => {
                 </ul>
               </div>
               
-              <div className="subscribe-form" onSubmit={handleSubsccribe}>
-                <h2>{_t("landing-page.subscribe-us")}</h2>
-                <form>
-                  <input
-                    type="email"
-                    placeholder={_t("landing-page.enter-your-email-adress")}
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required={true}
-                    onInvalid={(e: any) => handleInvalid(e, "landing-page.", 'validation-email')} 
-                    onInput={handleOnInput}
-                  />
-                  <button disabled={loading}>{loading ? <span><LinearProgress /></span>  : _t("landing-page.send")}</button>
-                </form>
-
-                <p>{_t("landing-page.subscribe-paragraph")}</p>
-
-
-            <div className="socials w-100 d-none d-lg-block">
-                  <ul className="p-0 m-0 d-flex justify-content-between w-50">
-                    <li>
-                      <a href="https://youtube.com/ecency">
-                        <img src={FooterYoutube} alt="youtube" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/ecency_official">
-                        <img src={FooterTwitter} alt="twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://t.me/ecency">
-                        <img src={FooterTelegram} alt="telegram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://discord.me/ecency">
-                        <img src={FooterDiscord} alt="discord" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-            
-                </div>
+              
             </div><div className="site-icon">
               <a href="#">
                 <img src={LogoCircle} alt="Weebecash logo" />
