@@ -1015,7 +1015,7 @@
   "static": {
     "about": {
       "page-title": "Apie",
-      "intro-title": "Kas yra <span>Ecency</span>",
+      "intro-title": "Kas yra <span>Weebecash</span>",
       "intro-content": "Weebecash, tai gražus ir patogus Hive blockchain atvaizdas, tinklas leidžiantis kurti įvariausia turinį, naršyti, balsuoti, skaityti bei socializuotis. Jūs taip pat gaunate savo piniginę, bei veiksmus susijusius su ja.",
       "faq-title": "DUK",
       "faqs": "Visi DUK",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-based social network -",
+    "what-is-ecency": "Blockchain-based social network",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",

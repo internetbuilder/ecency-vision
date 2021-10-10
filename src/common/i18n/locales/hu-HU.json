@@ -1015,7 +1015,7 @@
   "static": {
     "about": {
       "page-title": "Rólunk",
-      "intro-title": "What is <span>Ecency</span>",
+      "intro-title": "What is <span>Weebecash</span>",
       "intro-content": "Weebecash is beautiful and handy wrapper interface around the Hive blockchain network allowing you to create your own posts, surf your feeds, vote what you like, write comments, read replies, do all major Hive functions in your daily social surfing as well as wallet actions and other extras such as search, discover different tags etc.",
       "faq-title": "GYÍK",
       "faqs": "Összes GYIK",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-based social network -",
+    "what-is-ecency": "Blockchain-based social network",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",

@@ -1015,7 +1015,7 @@
   "static": {
     "about": {
       "page-title": "Про себе",
-      "intro-title": "Що таке <span>Ecency</span>",
+      "intro-title": "Що таке <span>Weebecash</span>",
       "intro-content": "Weebecash - гарний і зручний інтерфейс, як шпалери навколо blockchain мережі Hive, що дозволяє створювати власні дописи, переглядати стрічку новин, голосувати за що бажаєте, писати коментарі, читати відповіді, робити всі основні Hive функції в щоденному соціальному обслуговуванні, а також ви маєте гаманець та інші додатки, такі як пошук і т. д.",
       "faq-title": "ЧаПи",
       "faqs": "Усі ЧаПи",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-based social network -",
+    "what-is-ecency": "Blockchain-based social network",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",

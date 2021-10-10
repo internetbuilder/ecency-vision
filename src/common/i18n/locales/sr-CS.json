@@ -1015,7 +1015,7 @@
   "static": {
     "about": {
       "page-title": "O Nama",
-      "intro-title": "Šta je <span>Ecency</span>",
+      "intro-title": "Šta je <span>Weebecash</span>",
       "intro-content": "Weebecash je lep i praktičan omotač oko Hive blockchain mreže koji omogućava da napravite vlastite objave, surfujete po vašim fidovima, glasate za ono što volite, pišete komentare, čitate odgovore, radite sve glavne funkcije Hive-a u vašem svakodnevnom surfovanju po društvenim mrežama, kao i akcije novčanika i druge dodatke poput pretraživanja, otkrivanja različitih oznaka itd.",
       "faq-title": "Čеsto postavljana pitanja",
       "faqs": "Sva često postavljana pitanja",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-based social network -",
+    "what-is-ecency": "Blockchain-based social network",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",

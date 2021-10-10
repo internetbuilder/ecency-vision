@@ -29,7 +29,7 @@ export default class Meta extends Component<Props> {
     let { image } = this.props;
 
     if (!image) {
-      image = `${defaults.base}/og.jpg`;
+      image = `https://weebecash.com/og.jpg`;
     }
 
     return (
@@ -44,7 +44,7 @@ export default class Meta extends Component<Props> {
 
         {title && (
           <Helmet>
-            <title>{title}</title>
+            <title>Weebecash - {title}</title>
             <meta property="og:title" content={title} />
             <meta name="twitter:title" content={title} />
           </Helmet>
@@ -77,13 +77,13 @@ export default class Meta extends Component<Props> {
         {url && (
           <Helmet>
             <meta property="og:url" content={`${defaults.base}${url}`} />
-            <meta itemProp="mainEntityOfPage" itemScope={true} itemType="http://schema.org/WebPage" itemID={`${defaults.base}${url}`}/>
+            <meta itemProp="mainEntityOfPage" itemScope={true} itemType="http://schema.org/WebPage" itemID={`https://weebecash.com${url}`}/>
           </Helmet>
         )}
 
         {canonical && (
           <Helmet>
-            <link rel="canonical" href={canonical} />
+            <link rel="canonical" href="{canonical}" />
           </Helmet>
         )}
 
@@ -118,10 +118,7 @@ export default class Meta extends Component<Props> {
           </Helmet>
         )}
 
-        <Helmet>
-          <meta property="og:image" content={image} />
-          <meta name="twitter:image" content={image} />
-        </Helmet>
+
       </>
     );
   }

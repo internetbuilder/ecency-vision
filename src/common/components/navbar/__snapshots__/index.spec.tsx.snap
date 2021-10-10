@@ -25,7 +25,7 @@ exports[`(1) Default render 1`] = `
       className="brand"
     >
       <img
-        alt="Logo"
+        alt="Logo Weebecash"
         className="logo"
         onClick={[Function]}
         src="logo-circle.svg"
@@ -60,7 +60,7 @@ exports[`(1) Default render 1`] = `
         className="brand"
       >
         <img
-          alt="Logo"
+          alt="Logo Weebecash"
           className="logo"
           onClick={[Function]}
           src="logo-circle.svg"
@@ -494,7 +494,7 @@ exports[`(2) Night Theme 1`] = `
       className="brand"
     >
       <img
-        alt="Logo"
+        alt="Logo Weebecash"
         className="logo"
         onClick={[Function]}
         src="logo-circle.svg"
@@ -529,7 +529,7 @@ exports[`(2) Night Theme 1`] = `
         className="brand"
       >
         <img
-          alt="Logo"
+          alt="Logo Weebecash"
           className="logo"
           onClick={[Function]}
           src="logo-circle.svg"
@@ -1014,7 +1014,7 @@ exports[`(3) With active user 1`] = `
         onClick={[Function]}
       >
         <img
-          alt="Logo"
+          alt="Logo Weebecash"
           className="logo"
           src="logo-circle.svg"
         />
@@ -1053,7 +1053,7 @@ exports[`(3) With active user 1`] = `
           onClick={[Function]}
         >
           <img
-            alt="Logo"
+            alt="Logo Weebecash"
             className="logo"
             src="logo-circle.svg"
           />
@@ -1696,7 +1696,7 @@ exports[`(4) With active user && usePrivate = false 1`] = `
         onClick={[Function]}
       >
         <img
-          alt="Logo"
+          alt="Logo Weebecash"
           className="logo"
           src="logo-circle.svg"
         />
@@ -1735,7 +1735,7 @@ exports[`(4) With active user && usePrivate = false 1`] = `
           onClick={[Function]}
         >
           <img
-            alt="Logo"
+            alt="Logo Weebecash"
             className="logo"
             src="logo-circle.svg"
           />

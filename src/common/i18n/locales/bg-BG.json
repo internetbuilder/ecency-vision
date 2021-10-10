@@ -1015,7 +1015,7 @@
   "static": {
     "about": {
       "page-title": "Относно",
-      "intro-title": "Какво е <span>Ecency</span>",
+      "intro-title": "Какво е <span>Weebecash</span>",
       "intro-content": "Weebecash е красиво и удобно направен интерфейс в Hive блокчейн мрежата който ви позволява да създавате собствени постове, да разглеждате потоците си, да гласувате за каквото ви харесва, да пишете коментари, да четете отговори, и да правите всички главни Hive функции във всекидневното си социално сърфиране и също така да ползвате портфейла си и други екстри като търсене, откриване на различни такове и т. н.",
       "faq-title": "FAQ",
       "faqs": "Всички FAQ's",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-based social network -",
+    "what-is-ecency": "Blockchain-based social network",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",

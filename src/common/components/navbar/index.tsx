@@ -203,11 +203,11 @@ export class NavBar extends Component<Props, State> {
                             {
                                 activeUser !== null ? (
                                     <Link to={logoHref}>
-                                        <img src={logo} className="logo" alt="Logo"/>
+                                        <img src={logo} className="logo" alt="Logo Weebecash"/>
                                     </Link>
                                 ) :
                                 (
-                                    <img src={logo} className="logo" alt="Logo" onClick={this.handleIconClick}/>
+                                    <img src={logo} className="logo" alt="Logo Weebecash" onClick={this.handleIconClick}/>
                                 )
                             }
                         </div>
@@ -222,11 +222,11 @@ export class NavBar extends Component<Props, State> {
                                     {
                                         activeUser !== null ? (
                                             <Link to={logoHref}>
-                                                <img src={logo} className="logo" alt="Logo" />
+                                                <img src={logo} className="logo" alt="Logo Weebecash" />
                                             </Link>
                                         ) :
                                         (
-                                            <img src={logo} className="logo" alt="Logo" onClick={this.handleIconClick}/>
+                                            <img src={logo} className="logo" alt="Logo Weebecash" onClick={this.handleIconClick}/>
                                         )
                                     }
                                 </div>

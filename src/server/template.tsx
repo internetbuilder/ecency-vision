@@ -61,6 +61,14 @@ export const render = (req: express.Request, state: AppState) => {
                 <link rel="manifest" href="/manifest.json" />
                 ${headHelmet}
                 ${cssLinksFromAssets(assets, 'client')}
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51624727-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-51624727-1');
+</script>
             </head>
             <body class="${`theme-${state.global.theme}`}" style="display: none;">
                 <div id="root">${markup}</div>

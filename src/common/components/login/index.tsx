@@ -160,7 +160,7 @@ export class LoginKc extends BaseComponent<LoginKcProps, LoginKcState> {
 
         return <>
             <div className="dialog-header">
-                <img src={keyChainLogo} alt="Logo"/>
+                <img src={keyChainLogo} alt="Logo Weebecash"/>
                 <h2>{_t('login.with-keychain')}</h2>
             </div>
 
@@ -464,7 +464,7 @@ export class Login extends BaseComponent<LoginProps, State> {
             <>
                 {users.length === 0 && (
                     <div className="dialog-header">
-                        <img src={logo} alt="Logo"/>
+                        <img src={logo} alt="Logo Weebecash"/>
                         <h2>{_t('login.title')}</h2>
                     </div>
                 )}

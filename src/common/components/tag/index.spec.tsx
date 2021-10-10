@@ -111,7 +111,7 @@ it("(5) Link with community tag", () => {
 
     const renderer = TestRenderer.create(
         <Tag {...props} type="link">
-            <span>Ecency</span>
+            <span>Weebecash</span>
         </Tag>
     );
     expect(renderer.toJSON()).toMatchSnapshot();

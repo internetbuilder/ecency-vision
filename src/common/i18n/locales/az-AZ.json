@@ -1015,7 +1015,7 @@
   "static": {
     "about": {
       "page-title": "Haqqında",
-      "intro-title": "<span>Ecency</span> nədir",
+      "intro-title": "<span>Weebecash</span> nədir",
       "intro-content": "Weebecash, öz göndərişlərinizi yaratmağa, axınlarda gəzməyinizə, bəyəndiyinizə səs verməyə, rəy yazmağa, cavabları oxumağa, gündəlik sosial gəzintinizdə bütün üst Hive funksiyalarını və pulqabı əməliyyatlarını etməyinizə icazə verən Hive blok zəncirinin ətrafındakı gözəl və rahat paketləyici interfeysdir.",
       "faq-title": "TSS",
       "faqs": "Bütün TSS-lar",
@@ -1106,7 +1106,7 @@
   },
   "landing-page": {
     "welcome-text": "Welcome to Weebecash!",
-    "what-is-ecency": "Blockchain-based social network -",
+    "what-is-ecency": "Blockchain-based social network",
     "powered-by-hive": " powered by Hive",
     "get-started": "Get started",
     "earn-money": "Earn money",

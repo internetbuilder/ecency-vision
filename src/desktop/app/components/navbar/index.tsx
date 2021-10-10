@@ -386,7 +386,7 @@ export class NavBar extends Component<Props, State> {
                     <div className="nav-bar-inner">
                         <div className="brand">
                             <Link to={logoHref}>
-                                <img src={logo} className="logo" alt="Logo"/>
+                                <img src={logo} className="logo" alt="Logo Weebecash"/>
                             </Link>
                         </div>
 

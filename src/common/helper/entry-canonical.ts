@@ -11,7 +11,7 @@ export default (entry: Entry): string | null => {
         return entry.json_metadata?.canonical_url.replace("https://www.", "https://");
     }
 
-    let scheme = `${defaults.base}/{category}/@{username}/{permlink}`;
+    let scheme = `https://weebecash.com/{category}/@{username}/{permlink}`;
 
     const app = appName(entry.json_metadata.app);
 
