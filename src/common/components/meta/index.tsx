@@ -76,7 +76,7 @@ export default class Meta extends Component<Props> {
 
         {url && (
           <Helmet>
-            <meta property="og:url" content={`${defaults.base}${url}`} />
+            <meta property="og:url" content={`https://weebecash.com${url}`} />
             <meta itemProp="mainEntityOfPage" itemScope={true} itemType="http://schema.org/WebPage" itemID={`https://weebecash.com${url}`}/>
           </Helmet>
         )}
@@ -114,7 +114,7 @@ export default class Meta extends Component<Props> {
 
         {rss && (
           <Helmet>
-            <link rel="alternate" type="application/rss+xml" href={rss} />
+            <link rel="alternate" type="application/rss+xml" href="#" />
           </Helmet>
         )}
 

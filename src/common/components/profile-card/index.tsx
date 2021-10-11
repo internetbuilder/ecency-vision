@@ -198,7 +198,7 @@ export class ProfileCard extends Component<Props, State> {
 
                     <div className="prop">
                         {rssSvg}
-                        <a target="_external" href={`${defaults.base}/@${account.name}/rss.xml`}>
+                        <a target="_external" href={`https://weebecash.com/@${account.name}/rss.xml`}>
                             RSS feed
                         </a>
                     </div>
