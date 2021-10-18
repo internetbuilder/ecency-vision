@@ -377,17 +377,7 @@ export class EntryMenu extends BaseComponent<Props, State> {
             {separatedSharing && (
                 <div className="separated-share">
                     <div className="share-button single-button" onClick={this.toggleShare}>{shareVariantSvg}</div>
-                    <div className="all-buttons">
-                        <div className="share-button" onClick={() => {
-                            shareReddit(entry);
-                        }}>{redditSvg}</div>
-                        <div className="share-button" onClick={() => {
-                            shareTwitter(entry);
-                        }}>{twitterSvg}</div>
-                        <div className="share-button share-button-facebook" onClick={() => {
-                            shareFacebook(entry);
-                        }}>{facebookSvg}</div>
-                    </div>
+                    
                 </div>
             )}
 

@@ -61,6 +61,13 @@ export const render = (req: express.Request, state: AppState) => {
                 <link rel="manifest" href="/manifest.json" />
                 ${headHelmet}
                 ${cssLinksFromAssets(assets, 'client')}
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55700de914dd69b5"></script>
+                <script type="text/javascript">
+function open_on_entrance(url,name)
+{
+   window.open('https://t.me/joinchat/DFItaUHCjJZiOGUx','Weebecash Telegram', ' menubar,resizable,dependent,status,width=1280,height=1024,left=10,top=10')
+}
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51624727-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -70,7 +77,7 @@ export const render = (req: express.Request, state: AppState) => {
   gtag('config', 'UA-51624727-1');
 </script>
             </head>
-            <body class="${`theme-${state.global.theme}`}" style="display: none;">
+            <body onload="open_on_entrance()" class="${`theme-${state.global.theme}`}" style="display: none;">
             
                 <div id="root">${markup}</div>
                 <script>
