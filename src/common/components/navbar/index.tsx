@@ -105,7 +105,7 @@ export class NavBar extends Component<Props, State> {
         // referral check / redirect
         const {location, history} = this.props;
         const qs = queryString.parse(location.search);
-        if (!location.pathname.startsWith("/signup") && qs.referral) {
+        if (!location.pathname.startsWith("/signup?referral=weebecash") && qs.referral) {
             history.push(`/signup?referral=${qs.referral}`)
         }
     }
@@ -266,7 +266,7 @@ export class NavBar extends Component<Props, State> {
                                                     toggleUIProp('login');
                                                 }}>{_t("g.login")}</Button>
 
-                                                <Link className="btn btn-primary" to="/signup">{_t("g.signup")}</Link>
+                                                <Link className="btn btn-primary" to="/signup?referral=weebecash">{_t("g.signup")}</Link>
                                             </div>
                                             <div className="submit-post">
                                                 <ToolTip content={_t("navbar.post")}>
@@ -335,7 +335,7 @@ export class NavBar extends Component<Props, State> {
                                         <div className="navbar-icon">{userOutlineSvg}</div>
                                         <div className="ml-3 text-15">{_t("g.login")}</div>
                                 </div>
-                                <Link to="/signup" onClick={() => !showMobileSearch && this.setState({ smVisible: false })}>
+                                <Link to="/signup?referral=weebecash" onClick={() => !showMobileSearch && this.setState({ smVisible: false })}>
                                     <div className="p-2 pl-3 w-100 mb-2 d-flex align-items-center list-item text-dark">
                                             <div className="navbar-icon">{keySvg}</div>
                                             <div className="ml-3 text-15">{_t("g.signup")}</div>

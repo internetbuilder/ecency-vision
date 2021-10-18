@@ -38,7 +38,7 @@ exports[`(1) Render 1`] = `
       >
         <a
           className="btn btn-primary"
-          href="/signup"
+          href="/signup?referral=weebecash"
           onClick={[Function]}
         >
           Get Started

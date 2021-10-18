@@ -540,7 +540,7 @@ export class Login extends BaseComponent<LoginProps, State> {
                             this.hide();
 
                             const {history} = this.props;
-                            history.push("/signup");
+                            history.push("/signup?referral=weebecash");
 
                         }}>{_t("login.sign-up-text-2")}</a>
                     </p>
@@ -607,7 +607,7 @@ export default class LoginDialog extends Component<Props> {
 
             // redirection based on path name
             const {location, history} = this.props;
-            if (location.pathname.startsWith("/signup")) {
+            if (location.pathname.startsWith("/signup?referral=weebecash")) {
                 const u = `/@${x.username}/feed`;
                 history.push(u);
             }

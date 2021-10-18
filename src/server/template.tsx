@@ -71,6 +71,7 @@ export const render = (req: express.Request, state: AppState) => {
 </script>
             </head>
             <body class="${`theme-${state.global.theme}`}" style="display: none;">
+            
                 <div id="root">${markup}</div>
                 <script>
                   window.__PRELOADED_STATE__ = ${serialize(finalState)}
@@ -96,6 +97,8 @@ export const render = (req: express.Request, state: AppState) => {
                     display: block !important;
                   }
                 </style>
+                <img src="/weebecash.svg" alt="Weebecash" width="1" height="1">
+                <img src="/weebecash.png" alt="Weebecash" width="1" height="1">
             </body>
         </html>`;
 };

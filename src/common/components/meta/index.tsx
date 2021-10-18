@@ -44,7 +44,7 @@ export default class Meta extends Component<Props> {
 
         {title && (
           <Helmet>
-            <title>Weebecash - {title}</title>
+            <title>Weebecash - Immutable, decentralized, uncensored, rewarding communities built, owned and operated by its users - {title}</title>
             <meta property="og:title" content={title} />
             <meta name="twitter:title" content={title} />
           </Helmet>

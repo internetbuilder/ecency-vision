@@ -196,7 +196,7 @@ exports[`(1) Default render 1`] = `
       </button>
       <a
         className="btn btn-primary"
-        href="/signup"
+        href="/signup?referral=weebecash"
         onClick={[Function]}
       >
         Signup
@@ -433,7 +433,7 @@ Array [
         </button>
         <a
           className="btn btn-primary"
-          href="/signup"
+          href="/signup?referral=weebecash"
           onClick={[Function]}
         >
           Signup
@@ -701,7 +701,7 @@ exports[`(3) Night Theme 1`] = `
       </button>
       <a
         className="btn btn-primary"
-        href="/signup"
+        href="/signup?referral=weebecash"
         onClick={[Function]}
       >
         Signup

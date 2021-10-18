@@ -29,7 +29,7 @@ const Intro = (props: Props) => {
             <h1 className="intro-header">{_t("intro.title")}</h1>
             <h1 className="intro-sub-header">
                 <div className="title">{_t("intro.sub-title")}</div>
-                <div className="get-started"><Link to="/signup" className="btn btn-primary">{_t("intro.c2a")}</Link></div>
+                <div className="get-started"><Link to="/signup?referral=weebecash" className="btn btn-primary">{_t("intro.c2a")}</Link></div>
             </h1>
         </div>
         <div className="cloud-1"/>

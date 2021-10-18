@@ -421,7 +421,7 @@ export class NavBar extends Component<Props, State> {
                                     toggleUIProp('login');
                                 }}>{_t("g.login")}</Button>
 
-                                <Link className="btn btn-primary" to="/signup">{_t("g.signup")}</Link>
+                                <Link className="btn btn-primary" to="/signup?referral=weebecash">{_t("g.signup")}</Link>
                             </div>
                         )}
 
