@@ -8,6 +8,7 @@
     "build": "razzle build --noninteractive",
     "test": "razzle test --env=jsdom",
     "start:prod": "NODE_ENV=production node build/server.js"
+    "preinstall": "node -e 'if(!/yarn\\.js$/.test(process.env.npm_execpath))throw new Error(\"Use yarn\")'"
   },
   "dependencies": {
     "@ecency/render-helper": "^2.2.1",
