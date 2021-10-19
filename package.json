@@ -3,13 +3,15 @@
   "version": "3.0.19",
   "private": true,
   "license": "MIT",
-  "npm": "please-use-yarn",
-  "yarn": ">= 1.17.3",
   "scripts": {
     "start": "razzle start",
     "build": "razzle build --noninteractive",
     "test": "razzle test --env=jsdom",
     "start:prod": "NODE_ENV=production node build/server.js"
+  },
+    "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
   },
   "dependencies": {
     "@ecency/render-helper": "^2.2.1",
