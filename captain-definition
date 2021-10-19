@@ -3,6 +3,10 @@
  "dockerfileLines": [
                         "FROM node:12.22.6",
                         "RUN yarn && yarn start",
+                        "ENV NODE_ENV production",
+                        "ENV PORT 80",
+                        "EXPOSE 80",
+                        "CMD [ \"yarn\", \"start\" ]"
                     ]
 }
 
