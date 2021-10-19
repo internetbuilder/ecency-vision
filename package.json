@@ -3,6 +3,8 @@
   "version": "3.0.19",
   "private": true,
   "license": "MIT",
+  "npm": "please-use-yarn",
+  "yarn": ">= 1.17.3",
   "scripts": {
     "start": "razzle start",
     "build": "razzle build --noninteractive",
