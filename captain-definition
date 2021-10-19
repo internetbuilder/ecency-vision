@@ -2,11 +2,15 @@
  "schemaVersion" :2 ,
  "dockerfileLines": [
                         "FROM node:12.22.6",
-                        "RUN yarn && yarn build",
+                        "RUN mkdir -p /usr/src/app",
+                        "WORKDIR /usr/src/app",
+                        "COPY ./package.json /usr/src/app/",
+                        "RUN yarn && yarn cache clean --force",
+                        "COPY ./ /usr/src/app",
                         "ENV NODE_ENV production",
                         "ENV PORT 80",
                         "EXPOSE 80",
-                        "CMD [ \"yarn\", \"start:prod\" ]"
+                        "CMD [ \"yarn\", \"start\" ]"
                     ]
 }
 
