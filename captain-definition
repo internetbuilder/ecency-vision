@@ -7,10 +7,8 @@
                         "COPY ./package.json /usr/src/app/",
                         "RUN yarn && yarn build",
                         "COPY ./ /usr/src/app",
-                        "ENV NODE_ENV=production",
-                        "ENV PORT 3000",
-                        "EXPOSE 80",
-                        "CMD [ \"yarn\", \"start:prod\" ]"
+                        "ENV NODE_ENV=production node build/server.js",
+                        "CMD [ \"yarn\", \"start" ]"
                     ]
 }
 
