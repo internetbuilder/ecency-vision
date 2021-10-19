@@ -1,4 +1,8 @@
 {
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
+  },
   "name": "ecency-vision",
   "version": "3.0.19",
   "private": true,
@@ -8,10 +12,6 @@
     "build": "razzle build --noninteractive",
     "test": "razzle test --env=jsdom",
     "start:prod": "NODE_ENV=production node build/server.js"
-  },
-    "engines": {
-    "npm": "please-use-yarn",
-    "yarn": ">= 1.19.1"
   },
   "dependencies": {
     "@ecency/render-helper": "^2.2.1",
