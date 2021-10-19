@@ -2,12 +2,15 @@
  "schemaVersion" :2 ,
  "dockerfileLines": [
                         "FROM node:12.22.6",
-                        "WORKDIR ./",
-                        "RUN yarn && yarn build",
-                        "ENV NODE_ENV=production",
+                        "RUN mkdir -p /usr/src/app",
+                        "WORKDIR /usr/src/app",
+                        "COPY ./package.json /usr/src/app/",
+                        "RUN yarn && npm cache clean --force",
+                        "COPY ./ /usr/src/app",
+                        "ENV NODE_ENV production",
                         "ENV PORT 80",
                         "EXPOSE 80",
-                        "CMD [ \"node build/server.js\" ]"
+                        "CMD [ \"npm\", \"start\" ]"
                     ]
 }
 
