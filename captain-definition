@@ -1,5 +1,8 @@
 {
  "schemaVersion" :2 ,
- "templateId" :"node/12.22.6"
+ "dockerfileLines": [
+                        "FROM node:12.22.6",
+                        "RUN yarn && yarn start",
+                    ]
 }
 
