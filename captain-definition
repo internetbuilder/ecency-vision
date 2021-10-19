@@ -2,11 +2,11 @@
  "schemaVersion" :2 ,
  "dockerfileLines": [
                         "FROM node:12.22.6",
-                        "RUN yarn && yarn start",
+                        "RUN yarn && yarn build",
                         "ENV NODE_ENV production",
                         "ENV PORT 80",
                         "EXPOSE 80",
-                        "CMD [ \"yarn\", \"start\" ]"
+                        "CMD [ \"yarn\", \"start:prod\" ]"
                     ]
 }
 
